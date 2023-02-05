@@ -23,7 +23,6 @@
             border: 1px solid black;
             justify-content: space-between;
 
-            /*background-color: #F8F4E3;*/
             background-color: #DAE2DF;
 
             padding: 10px;
@@ -54,7 +53,7 @@
             cursor: pointer;
         }
 
-        .container {
+        .box {
             background-color: #DAE2DF;
             border: 1px solid black;
 
@@ -89,7 +88,7 @@
             </div>
         </header>
 
-<%--        <div class="container">--%>
+<%--        <div class="box">--%>
 <%--            <div class="presentation-image"><img src="media/bank-image-home.jpg"></div>--%>
 <%--        </div>--%>
 
