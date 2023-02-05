@@ -1,4 +1,4 @@
-package com.cleanyco.boringbank;
+package com.cleanyco.boringbank.controller;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

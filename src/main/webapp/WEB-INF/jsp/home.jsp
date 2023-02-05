@@ -84,7 +84,7 @@
             <div class="header-section">
 <%--                TODO change LANG to language selector--%>
                 <div class="header-item header-button"><a href="#">[LANG]</a></div>
-    <div class="header-item header-button"><a href="#">Log in</a></div>
+    <div class="header-item header-button"><a href="#">Sign up</a></div>
                 <div class="header-item header-button"><a href="#">Sign in</a></div>
             </div>
         </header>
