@@ -63,6 +63,14 @@
             height: 100%;
             width: 100%;
         }
+
+        .presentation-picture {
+            position: absolute;
+            margin-left: 75%;
+
+            width: 550px;
+            height: 300px;
+        }
     </style>
     <body>
         <header>
@@ -72,18 +80,18 @@
                 <div class="header-item header-button"><a href="#">About</a> </div>
                 <div class="header-item header-button"><a href="#">Private Clients</a> </div>
                 <div class="header-item header-button"><a href="#">Currency Rate</a> </div>
-                <div class="header-item header-button"><a href="#">Currency Rate</a> </div>
             </div>
             <div class="header-section">
 <%--                TODO change LANG to language selector--%>
                 <div class="header-item header-button"><a href="#">[LANG]</a></div>
+    <div class="header-item header-button"><a href="#">Log in</a></div>
                 <div class="header-item header-button"><a href="#">Sign in</a></div>
             </div>
         </header>
 
-        <div class="container">
-
-        </div>
+<%--        <div class="container">--%>
+<%--            <div class="presentation-image"><img src="media/bank-image-home.jpg"></div>--%>
+<%--        </div>--%>
 
 
     </body>
