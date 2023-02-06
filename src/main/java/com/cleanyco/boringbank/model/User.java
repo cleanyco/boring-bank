@@ -12,13 +12,13 @@ public class User {
 
     @NotBlank(message = "Name cannot be empty!")
     @Size(min=3, max = 16, message = "Name should be between 2 and 16 characters!")
-    private final String firstname;
+    private String firstname;
     @NotBlank(message = "Lastname cannot be empty!")
     @Size(min=3, max = 16, message = "Lastname should be between 2 and 32 characters!")
-    private final String lastname;
+    private String lastname;
 
     @NotBlank(message = "Date of Birth cannot be empty!")
-    private final LocalDate dateOfBirth;
+    private LocalDate dateOfBirth;
 
     //TODO implement change email function
     @Email(message = "E-mail is incorrect!")
@@ -45,5 +45,8 @@ public class User {
         this.dateOfBirth = dateOfBirth;
         this.email = email;
         this.phoneNumber = phoneNumber;
+    }
+
+    public User() {
     }
 }
