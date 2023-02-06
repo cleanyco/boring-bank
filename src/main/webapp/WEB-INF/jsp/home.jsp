@@ -74,6 +74,7 @@
     <body>
         <header>
             <div class="header-section">
+<%--                FIXME remove logo stroke--%>
                 <div class="header-item header-logo">BB</div>
                 <div class="header-item header-button"><a href="#">Home</a> </div>
                 <div class="header-item header-button"><a href="#">About</a> </div>
@@ -83,7 +84,7 @@
             <div class="header-section">
 <%--                TODO change LANG to language selector--%>
                 <div class="header-item header-button"><a href="#">[LANG]</a></div>
-    <div class="header-item header-button"><a href="#">Sign up</a></div>
+    <div class="header-item header-button"><a href="signup">Sign up</a></div>
                 <div class="header-item header-button"><a href="#">Sign in</a></div>
             </div>
         </header>
